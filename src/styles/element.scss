@@ -1,0 +1,51 @@
+@import 'variable.scss';
+
+body {
+  margin: 0;
+  line-height: 1.8;
+  font-family: "TATSanaSuksa";
+  color: #333;
+}
+
+header {
+  padding: 8px 16px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 10;
+  display: flex;
+}
+
+h2 {
+  margin-top: 24px;
+  color: $red;
+  font-size: 36px;
+  font-family: "TATSanaChonBold";
+
+  @media screen and (max-width: $min-medium) {
+    font-size: 24px;
+  }
+}
+
+h3 {
+  margin-top: 12px;
+  font-size: 18px;
+  font-family: "TATSanaChonBold";
+}
+
+p {
+  font-size: 18px;
+  margin: 0;
+
+  @media screen and (max-width: $min-medium) {
+    font-size: 14px;
+  }
+}
+
+a {
+  text-decoration: none;
+}

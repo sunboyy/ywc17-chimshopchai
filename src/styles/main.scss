@@ -1,0 +1,166 @@
+@import "variable.scss";
+
+.banner {
+  margin: 60px 0 0 0;
+  height: 350px;
+  display: flex;
+  position: relative;
+
+  .bg {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+    .img {
+      flex: 1;
+      background-size: cover;
+      background-position: center top;
+
+      &.left {
+        background-image: url(https://www.xn--b3caa1e2a7e2b0h2be.com/img/hero_banner/banner-left.png);
+      }
+
+      &.center {
+        background-image: url(https://www.xn--b3caa1e2a7e2b0h2be.com/img/hero_banner/banner-center.png);
+      }
+
+      &.right {
+        background-image: url(https://www.xn--b3caa1e2a7e2b0h2be.com/img/hero_banner/banner-right.png);
+      }
+    }
+  }
+
+  .logo {
+    width: 240px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  @media screen and (max-width: $min-medium) {
+    height: 242px;
+
+    .logo {
+      width: 106px;
+    }
+  }
+
+  @media screen and (max-width: $min-small) {
+    height: 221px;
+  }
+}
+
+.duration {
+  margin: 26px 15px;
+  font-family: "TATSanaChonBold";
+  text-align: center;
+
+  .since {
+    font-size: 16px;
+  }
+
+  .date {
+    margin-top: -10px;
+    font-size: 48px;
+    color: $red;
+
+    @media screen and (max-width: $min-medium) {
+      font-size: 36px;
+    }
+
+    @media screen and (max-width: $min-small) {
+      font-size: 30px;
+    }
+  }
+
+  .register-button {
+    box-sizing: border-box;
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 0;
+    color: #fff;
+    background-color: #213a8f;
+    font-family: "TATSanaChonBold";
+    font-size: 24px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(28, 78, 132, 0.4);
+    cursor: pointer;
+    transition-duration: 0.15s;
+
+    &:hover {
+      background-color: #fbbc33;
+      box-shadow: none;
+    }
+
+    @media screen and (max-width: $min-medium) {
+      font-size: 18px;
+    }
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    transform: translateY(-36px);
+    position: relative;
+    z-index: -1;
+  }
+}
+
+.detail {
+  margin: 60px 0 0 0;
+  width: 82%;
+
+  @media screen and (max-width: $min-medium) {
+    width: initial;
+  }
+}
+
+.stores {
+  margin: 70px 0;
+  display: flex;
+  align-items: flex-start;
+
+  @media screen and (max-width: $min-medium) {
+    flex-direction: column-reverse;
+  }
+}
+
+.contact {
+  margin: 100px 0;
+
+  img {
+    width: 100%;
+  }
+
+  @media screen and (max-width: $min-small) {
+    margin: 80px 0;
+  }
+}
+
+.partner {
+  margin: 100px 0;
+
+  img {
+    width: 102px;
+    transition-duration: 0.55s;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+
+    @media screen and (max-width: $min-small) {
+      width: 56px;
+    }
+  }
+
+  @media screen and (max-width: $min-small) {
+    margin: 80px 0;
+  }
+}
+
+.align-center {
+  text-align: center;
+}

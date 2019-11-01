@@ -1,0 +1,44 @@
+@import "variable.scss";
+
+.footer-1 {
+  padding: 30px;
+  background-color: #fafafa;
+
+  img {
+    width: 108px;
+  }
+
+  .title {
+    color: $red;
+    font-size: 16px;
+    margin-top: 24px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+.footer-2 {
+  padding: 0;
+  background-color: #213a8f;
+
+  .block {
+    color: #fff;
+    padding: 8px 32px;
+    font-size: 14px;
+    font-family: "TATSanaChonBold";
+
+    @media screen and (max-width: $min-medium) {
+      font-size: 12px;
+    }
+  }
+
+  a {
+    color: #fff;
+  }
+
+  @media screen and (max-width: $min-small) {
+    padding: 15px 0;
+  }
+}

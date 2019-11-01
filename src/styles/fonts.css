@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "TATSanaChon";
+  src: url('../fonts/TATSanaChon-Regular.eot') format('embedded-opentype'),
+    url('../fonts/TATSanaChon-Regular.woff') format('woff2'),
+    url('../fonts/TATSanaChon-Regular.woff2') format('woff'),
+    url('../fonts/TATSanaChon-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "TATSanaChonBold";
+  src: url('../fonts/TATSanaChon-Bold.eot') format('embedded-opentype'),
+    url('../fonts/TATSanaChon-Bold.woff') format('woff'),
+    url('../fonts/TATSanaChon-Bold.woff2') format('woff2'),
+    url('../fonts/TATSanaChon-Bold.ttf') format('typetype');
+}
+
+@font-face {
+  font-family: "TATSanaSuksa";
+  src: url('../fonts/TATSanaSuksa-Regular.eot') format('embedded-opentype'),
+    url('../fonts/TATSanaSuksa-Regular.woff') format('woff'),
+    url('../fonts/TATSanaSuksa-Regular.woff2') format('woff2'),
+    url('../fonts/TATSanaSuksa-Regular.ttf') format('typetype');
+}
